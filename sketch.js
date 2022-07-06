@@ -75,7 +75,7 @@ function sendTheMessage() {
   if (answerInput.value() != "") {
     answer = answerInput.value();
     sendToServer();
-    window.location.href = "/../_pageTwo/index.html?answer="+answer+"&you="+you; 
+    window.location.href = "https://jeni00.github.io/Assignment-2/_pageTwo/index.html?answer="+answer+"&you="+you; 
   } else {
     window.alert ("Please tell me your opinion on the subject. Let's see if we hold the same point of view.");
 
